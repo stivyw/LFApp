@@ -1,6 +1,6 @@
 <?php
-define('BASEPATH', __DIR__ . '/../../laravel');
-define('APPPATH', __DIR__.'/../app');
+!defined('BASEPATH') && define('BASEPATH', __DIR__ . '/../../laravel');
+!defined('APPPATH') && define('APPPATH', __DIR__.'/../app');
 define('LARAVEL_START', microtime(true));
 
 require BASEPATH.'/vendor/autoload.php';
@@ -33,5 +33,4 @@ $app->bindInstallPaths(array(
 $framework = $app['path.base'] . '/vendor/laravel/framework/src';
 
 require $framework.'/Illuminate/Foundation/start.php';
-
-$app->run();
+!isset($artisan) && $app->run();

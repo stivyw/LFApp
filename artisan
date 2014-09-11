@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+define('BASEPATH', __DIR__ . '/../laravel');
+define('APPPATH', __DIR__.'/app');
+$artisan = true;
+require __DIR__ . '/public/index.php';
+
+//artisan
+$app->setRequestForConsoleEnvironment();
+$artisan = Illuminate\Console\Application::start($app);
+$status = $artisan->run();
+$app->shutdown();
+exit($status);
