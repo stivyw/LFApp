@@ -1,4 +1,3 @@
-
 Free Structure Sugest for Laravel App
 ============================
 
@@ -32,5 +31,5 @@ Enter on the public folder and start php server
 	php -S localhost:8080
 ```
 
-Open the browser and go to localhost:8080
+Customize and open the browser and go to localhost:8080
 
