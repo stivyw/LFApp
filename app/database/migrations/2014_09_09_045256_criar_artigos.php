@@ -34,7 +34,7 @@ class CriarArtigos extends Migration {
 	{
 		//
 
-		Schema::drop();
+		Schema::drop('artigos');
 	}
 
 }

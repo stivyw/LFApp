@@ -1,4 +1,6 @@
 <?php
+Route::controller('test', 'TestController');
+if(false)
 Route::get('/', function()
 {
 	foreach(Artigo::get() as $item){
