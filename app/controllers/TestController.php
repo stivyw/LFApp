@@ -1,14 +1,10 @@
 <?php
 
-class TestController extends BaseController {
+class TestController extends MyController {
 
-	public function missingMethod(){
-		die('missing');
-	}
 	public function getIndex()
 	{
-		die('index');
-		return View::make('hello');
+		return $this->layout->nest('main','hello');
 	}
 
 }

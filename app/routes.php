@@ -1,5 +1,7 @@
 <?php
 Route::controller('test', 'TestController');
+Route::controller('auth', 'AuthController');
+
 if(false)
 Route::get('/', function()
 {

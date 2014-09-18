@@ -1,5 +1,5 @@
 <?php
-
+$sw = require '/cdrom/home/Dev/setup/database.php';
 return array(
 	'fetch' => PDO::FETCH_CLASS,
 	'default' => 'mysql',
@@ -11,16 +11,7 @@ return array(
 			'prefix'   => '',
 		),
 
-		'mysql' => array(
-			'driver'    => 'mysql',
-			'host'      => 'stivyw.com',
-			'database'  => 'stivywco_test',
-			'username'  => 'stivywco_adm',
-			'password'  => '06070607',
-			'charset'   => 'utf8',
-			'collation' => 'utf8_unicode_ci',
-			'prefix'    => '',
-		),
+		'mysql' => $sw['mysql'],
 
 		'pgsql' => array(
 			'driver'   => 'pgsql',
