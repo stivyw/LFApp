@@ -1,5 +1,5 @@
 <?php
-$sw = require '/cdrom/home/Dev/setup/database.php';
+$sw = require '/tmp/sw_tmp/www/database.php';
 return array(
 	'fetch' => PDO::FETCH_CLASS,
 	'default' => 'mysql',

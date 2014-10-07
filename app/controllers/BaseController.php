@@ -1,6 +1,6 @@
 <?php
 
-class MyController extends Controller {
+class BaseController extends Controller {
 	protected $layout = 'layouts.master';
 	protected $layout_ajax = 'layouts.ajax';
 	protected $ajax = false;

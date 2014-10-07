@@ -1,6 +1,6 @@
 <?php
 
-class TestController extends MyController {
+class TestController extends BaseController {
 
 	public function getIndex()
 	{

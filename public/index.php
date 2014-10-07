@@ -1,5 +1,5 @@
 <?php
-!defined('BASEPATH') && define('BASEPATH', __DIR__ . '/../../laravel');
+!defined('BASEPATH') && define('BASEPATH', __DIR__ . '/../../sys');
 !defined('APPPATH') && define('APPPATH', __DIR__.'/../app');
 define('LARAVEL_START', microtime(true));
 

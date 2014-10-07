@@ -1,6 +1,6 @@
 #!/usr/bin/env php
 <?php
-define('BASEPATH', __DIR__ . '/../laravel');
+define('BASEPATH', __DIR__ . '/../sys');
 define('APPPATH', __DIR__.'/app');
 $artisan = true;
 require __DIR__ . '/public/index.php';

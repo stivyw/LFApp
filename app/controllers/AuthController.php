@@ -1,6 +1,6 @@
 <?php
 
-class AuthController extends MyController {
+class AuthController extends BaseController {
 
 	public function getIndex()
 	{	
